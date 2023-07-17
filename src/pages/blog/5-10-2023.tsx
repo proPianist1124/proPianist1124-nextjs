@@ -1,7 +1,6 @@
 import Head from "next/head"
 import Link from "next/link"
 import Navbar from "../partials/navbar"
-import Footer from "../partials/footer"
 
 export default function may102023(){
   return (
@@ -22,7 +21,6 @@ export default function may102023(){
 			</h4>
 			</div>
 	</center>
-    <Footer/>
 	</>
   )
 }

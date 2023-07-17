@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Poppins&display=swap');
 :root{
-	--background:	#25255b;
-	--background-lighter:#333370;
+	--background:#000;
+	--background-lighter:#0c0c0c;
 	--background-lightest:#9d9de2;
-	--primary:#c7c7c7;
+	--primary:#a8a6a6;
 	--secondary:#5e5e5e;
-	--links:#00a3d8;
+	--links:#9d9de2;
 	--buttonHover:var(--background-lighter);
 	--mainFont:'Plus Jakarta Sans', sans-serif;
 	--secondFont:'Poppins', sans-serif;
@@ -151,38 +151,38 @@ a:hover{
 
 /* navbar */
 ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
 	font-size:20px;
 	position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+  	position: sticky;
+  	top: 0;
 	background-color:var(--background);
 	font-family: var(--secondFont);
 }
 li {
-  float: left;
+	float: left;
 }
 
 li a {
-  display: block;
-  color: var(--primary);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-	transition:0.3s;
+	display: block;
+  	color: var(--primary);
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	transition:0.3s;
 }
 li a:hover {
 	text-shadow: 0 0 20px var(--links);
 }
 li span {
 	display: block;
-  color: var(--primary);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  	color: var(--primary);
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
 }
 li span:hover{
 	text-shadow: 0 0 20px var(--links);
@@ -191,16 +191,16 @@ li span:hover{
 /* main page components */
 .footer {
 	position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color:var(--background-lighter);
-  color: var(--secondary);
-  text-align: center;
+	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	background-color:var(--background-lighter);
+  	color: var(--secondary);
+  	text-align: center;
 	font-family:var(--secondFont);
 }
 .head{
-	color:var(--links);
+	color:var(--background-lightest);
 	font-size:27px;
 }
 .header{
@@ -255,7 +255,7 @@ li span:hover{
 .aboutContainer div{
 	align-items:center;
 	max-width:400px;
-	text-align:center;
+	text-align:left;
 	padding:20px;
 	font-size:22px;
 	background-color:var(--background-lighter);
@@ -264,7 +264,7 @@ li span:hover{
 }
 .aboutContainer div:hover{
 	cursor:pointer;
-	color:var(--secondary);
+	color:var(--background-lightest);
 	text-shadow: 0 0 20px #000;
 }
 .aboutContainer div.top{

@@ -1,7 +1,6 @@
 import Head from "next/head"
 import Link from "next/link"
 import Navbar from "./partials/navbar"
-import Footer from "./partials/footer"
 
 export default function Blog(){
   return (
@@ -30,7 +29,6 @@ export default function Blog(){
 				</div>
 			</Link>
 		</center>
-		<Footer/>
 		</>
   )
 }
