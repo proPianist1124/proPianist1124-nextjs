@@ -15,7 +15,7 @@ export default function Gallery(){
 				<span className = "head">📖 Gallery</span>
 			</div>
 			<br></br>
-			<Link href = "https://replit.com/@proPianist1124/proPianist1124?v=1" style = {{color:"var(--primary)", textShadow:"none"}}>
+			<Link href = "https://github.com/propianist1124/propianist1124" style = {{color:"var(--primary)", textShadow:"none"}}>
 				<div className = "galleryCard">
 					proPianist1124
 					<br></br>
@@ -23,6 +23,17 @@ export default function Gallery(){
 					<mark style = {{backgroundColor:"black", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>Next.js</mark>
 					&nbsp;<mark style = {{backgroundColor:"yellow", color:"black", fontSize:15, padding:"2px 10px", borderRadius:5}}>Express</mark>
 					&nbsp;<mark style = {{backgroundColor:"#0279f2", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>CSS3</mark>
+				</div>
+			</Link>
+			<br></br>
+			<Link href = "https://next-audio.vercel.app" style = {{color:"var(--primary)", textShadow:"none"}}>
+				<div className = "galleryCard">
+					Next Audio
+					<br></br>
+					<p>This website was for my own personal needs - anyone can create an account, sign in, and extract the audio of a youtube video to listen to! You can also add other audio files to the one you're listening to.</p>
+					<mark style = {{backgroundColor:"black", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>Next.js</mark>
+					&nbsp;<mark style = {{backgroundColor:"#0279f2", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>CSS3</mark>
+					&nbsp;<mark style = {{backgroundColor:"#36d399", color:"black", fontSize:15, padding:"2px 10px", borderRadius:5}}>Upstash</mark>
 				</div>
 			</Link>
 			<br></br>
@@ -36,9 +47,9 @@ export default function Gallery(){
 				</div>
 			</Link>
 			<br></br>
-            <Link href = "https://big-space.lto.lol/" style = {{color:"var(--primary)", textShadow:"none"}}>
+            <Link href = "https://yofro.vercel.app" style = {{color:"var(--primary)", textShadow:"none"}}>
 				<div className = "galleryCard">
-					Big Space
+					Yofro
 					<br></br>
 					<p>Minamalist social media webapp, where people can sign up within a matter of minutes. Complete with user profiles, custom tokens, and setting features!</p>
 					<mark style = {{backgroundColor:"green", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>Node.js</mark>

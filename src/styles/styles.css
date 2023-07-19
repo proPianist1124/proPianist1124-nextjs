@@ -1,13 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 :root{
 	--background:#000;
 	--background-lighter:#282727;
-	--background-lightest:#9d9de2;
 	--primary:#fff;
 	--secondary:#b7b7b7;
-	--buttonHover:var(--background-lighter);
-	--mainFont:'Plus Jakarta Sans', sans-serif;
-	--secondFont:'Poppins', sans-serif;
+	--mainFont:"Inter", sans-serif;
 }
 
 html, body {
@@ -43,12 +40,11 @@ input{
 	height:20px;
 	background-color:var(--background);
 	border:none;
-	font-family: var(--secondFont);
 	color:var(--primary);
 	transition:0.3s;
 }
 input:focus{
-	background-color:var(--buttonHover);
+	background-color:var(--background-lighter);
 	box-shadow: 5px 5px black;
 	outline:none;
 }
@@ -57,13 +53,13 @@ textarea{
 	height:100px;
 	background-color:var(--background);
 	border:none;
-	font-family: var(--secondFont);
+	font-family: var(--mainFont);
 	color:var(--primary);
 	resize: none;
 	transition:0.3s;
 }
 textarea:focus{
-	background-color:var(--buttonHover);
+	background-color:var(--background-lighter);
 	border-color:white;
 	box-shadow: 5px 5px black;
 	outline:none;
@@ -77,7 +73,7 @@ button{
 	transition:0.3s;
 }
 button:hover{
-	background-color:var(--buttonHover);
+	background-color:var(--background-lighter);
 	border-color:white;
 	box-shadow: 5px 10px black;
 }
@@ -144,7 +140,7 @@ ul{
   	position: sticky;
   	top: 0;
 	background-color:var(--background);
-	font-family: var(--secondFont);
+	font-family: var(--mainFont);
 }
 li {
 	float: left;
@@ -167,6 +163,9 @@ li span {
   	text-align: center;
   	padding: 14px 16px;
   	text-decoration: none;
+}
+mark{
+	border:1px solid var(--secondary);
 }
 
 /* main page components */
@@ -198,8 +197,14 @@ li span {
 .blogCard:hover {
 	box-shadow: 5px 5px var(--background-lighter);
 }
+.blogCard h3, h5{
+	font-weight:normal;
+}
 .blogCard h3{
 	color:var(--primary);
+}
+.blogCard h5{
+	color:var(--secondary);
 }
 
 .galleryCard{
@@ -236,4 +241,7 @@ li span {
 }
 .container a:hover{
 	color:var(--secondary);
+}
+.contact h2{
+	font-weight:normal;
 }
