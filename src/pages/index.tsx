@@ -15,7 +15,7 @@ export default function Home(){
 	<Navbar/>
 	<center>
 		<div>
-			<h2>👋 I'm proPianist1124!</h2>
+			<h2>👋 I&apos;m proPianist1124!</h2>
 		</div>
 		<br></br>
 		<br></br>
