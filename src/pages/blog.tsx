@@ -12,7 +12,7 @@ export default function Blog(){
 		<Navbar/>
 		<center>
 			<div className = "header">
-				<span className = "head">Blog</span>
+				<span className = "head">📝 Blog</span>
 			</div>
 			<br></br>
 			<Link href = "/blog/5-10-2023" style = {{textShadow:"none"}}>

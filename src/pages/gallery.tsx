@@ -12,7 +12,7 @@ export default function Gallery(){
 		<Navbar/>
 		<center>
 			<div className = "header">
-				<span className = "head">Gallery</span>
+				<span className = "head">📖 Gallery</span>
 			</div>
 			<br></br>
 			<Link href = "https://replit.com/@proPianist1124/proPianist1124?v=1" style = {{color:"var(--primary)", textShadow:"none"}}>

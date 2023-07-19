@@ -12,12 +12,12 @@ export default function Contact(){
 	<Navbar/>
 	<center>
 		<div className = "header">
-			<span className = "head">Contact & Socials</span>
+			<span className = "head">📱 Contact</span>
 		</div>
 		<h2>Replit</h2>
 		<Link href = "https://replit.com/@proPianist1124" className = "replit">proPianist1124</Link>
 		<h2>Discord</h2>
-		<Link href = "https://discord.com/users/844689790075011083" className = "discord">cycles.poop</Link>
+		<Link href = "https://discord.com/users/844689790075011083" className = "discord">chicken.poop</Link>
 		<br></br><br></br>
 		<h2>Email</h2>
 		<Link href = "mailto:invisible.horse1124@proton.me" className = "email">invisible.horse1124@proton.me</Link>

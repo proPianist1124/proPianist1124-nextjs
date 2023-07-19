@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Poppins&display=swap');
 :root{
 	--background:#000;
-	--background-lighter:#0c0c0c;
+	--background-lighter:#282727;
 	--background-lightest:#9d9de2;
-	--primary:#a8a6a6;
-	--secondary:#5e5e5e;
+	--primary:#fff;
+	--secondary:#b7b7b7;
 	--links:#9d9de2;
 	--buttonHover:var(--background-lighter);
 	--mainFont:'Plus Jakarta Sans', sans-serif;
@@ -151,7 +151,7 @@ a:hover{
 
 /* navbar */
 ul{
-  	list-style-type: none;
+	list-style-type: none;
   	margin: 0;
   	padding: 0;
   	overflow: hidden;
@@ -168,7 +168,7 @@ li {
 
 li a {
 	display: block;
-  	color: var(--primary);
+  	color: var(--secondary);
   	text-align: center;
   	padding: 14px 16px;
   	text-decoration: none;
@@ -194,33 +194,28 @@ li span:hover{
 	left: 0;
   	bottom: 0;
   	width: 100%;
-  	background-color:var(--background-lighter);
-  	color: var(--secondary);
-  	text-align: center;
-	font-family:var(--secondFont);
 }
 .head{
-	color:var(--background-lightest);
+	color:var(--primary);
 	font-size:27px;
 }
 .header{
 	max-width:800px;
 	text-align:center;
 	padding:10px;
-	background-color:var(--background-lighter);
-	border-radius:5px;
 }
 .blogCard {
 	max-width:800px;
 	text-align:left;
 	padding:10px;
-	background-color:var(--background-lighter);
-	border-radius:5px;
+	background-color:var(--background);
+	border:1px solid var(--background-lighter);
+	border-radius:0px;
 	box-shadow: none;
 	transition:0.3s;
 }
 .blogCard:hover {
-	box-shadow: 5px 5px var(--background-lightest);
+	box-shadow: 5px 5px var(--background-lighter);
 }
 .blogCard h3{
 	color:var(--background-lightest);
@@ -230,16 +225,17 @@ li span:hover{
 	max-width:650px;
 	text-align:left;
 	padding:20px;
-	background-color:var(--background-lighter);
-	border-radius:5px;
+	background-color:var(--background);
+	border-radius:0px;
+	border:1px solid var(--background-lighter);
 	box-shadow: none;
 	transition:0.3s;
 }
 .galleryCard:hover {
-	box-shadow: 5px 5px var(--background-lightest);
+	box-shadow: 5px 5px var(--background-lighter);
 }
 .galleryCard p{
-	color:var(--background-lightest);
+	color:var(--secondary);
 }
 .galleryCard a{
 	color:var(--primary);
@@ -248,35 +244,19 @@ li span:hover{
 	text-shadow:none;
 }
 
-.aboutContainer{
+.container{
+	text-align:left;
+	line-height:50px;
+	margin:auto;
+	max-width:500px;
 	align-items:center;
 	vertical-align:middle;
+	color:var(--secondary);
 }
-.aboutContainer div{
-	align-items:center;
-	max-width:400px;
-	text-align:left;
-	padding:20px;
-	font-size:22px;
-	background-color:var(--background-lighter);
-	transition:0.3s;
-	box-shadow:none;
-}
-.aboutContainer div:hover{
-	cursor:pointer;
-	color:var(--background-lightest);
-	text-shadow: 0 0 20px #000;
-}
-.aboutContainer div.top{
-	border-radius:45px 0px 0px 0px;
-}
-.aboutContainer div.bottom{
-	border-radius:0px 0px 45px 0px;
-}
-.aboutContainer a{
+.container a{
 	color:var(--primary);
 }
-.aboutContainer a:hover{
+.container a:hover{
 	color:var(--secondary);
 	text-shadow: 0 0 20px #000;
 }
