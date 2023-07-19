@@ -30,7 +30,7 @@ export default function Gallery(){
 				<div className = "galleryCard">
 					Next Audio
 					<br></br>
-					<p>This website was for my own personal needs - anyone can create an account, sign in, and extract the audio of a youtube video to listen to! You can also add other audio files to the one you're listening to.</p>
+					<p>This website was for my own personal needs - anyone can create an account, sign in, and extract the audio of a youtube video to listen to! You can also add other audio files to the one you&apos;re listening to.</p>
 					<mark style = {{backgroundColor:"black", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>Next.js</mark>
 					&nbsp;<mark style = {{backgroundColor:"#0279f2", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>CSS3</mark>
 					&nbsp;<mark style = {{backgroundColor:"#36d399", color:"black", fontSize:15, padding:"2px 10px", borderRadius:5}}>Upstash</mark>
