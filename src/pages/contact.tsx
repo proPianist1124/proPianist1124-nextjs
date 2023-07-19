@@ -23,10 +23,10 @@ export default function Contact(){
 		<Link href = "mailto:invisible.horse1124@proton.me" className = "email">invisible.horse1124@proton.me</Link>
 		<br></br><br></br>
 		<h2>Twitter</h2>
-		<Link href = "https://twitter.com/elonmusk">happypeng_1</Link>
+		<Link href = "https://twitter.com/elonmusk" className = "twitter">happypeng_1</Link>
 		<br></br><br></br>
-		<h2>Big Space</h2>
-		<Link href = "https://big-space.lto.lol/@proPianist1124" className = "big-space">proPianist1124</Link>
+		<h2>Yofro</h2>
+		<Link href = "https://yofro.vercel.app/@proPianist1124" className = "big-space">proPianist1124</Link>
 		<br></br><br></br>
 		<h2>Social Rumbles</h2>
 		<Link href = "https://socialrumbles.com/@greenSmiley" className = "socialRumbles">greenSmiley</Link>
@@ -44,8 +44,9 @@ export default function Contact(){
 		<Link href = "https://www.reddit.com/user/simonsays1124" className = "reddit">simonSays1124</Link>
 		<br></br><br></br>
 		<br></br><br></br>
+		<br></br><br></br>
 		<form action="/api/form" method="post">
-			<p style = {{fontSize:20, textAlign:'center'}}>Got Questions? Leave a Message!</p>
+			<p style = {{fontSize:20, textAlign:'center'}}>Leave a Message for me!</p>
 			<br></br>
 			<input type = "email" name="email" placeholder = "email" autoComplete = "off" required/>
 			<br></br><br></br>

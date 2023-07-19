@@ -25,7 +25,7 @@ export default function Blog(){
 			<Link href = "/blog/4-22-2023">
                 <div className = "blogCard" style = {{textShadow:"none"}}>
 					<h3>4-22-2023</h3>
-					<h5>some copyright information and open source software for this specific project. pls read thru this before forking my personal webpage (cus i can sue u 🥶 lol)</h5>
+					<h5>some copyright information and open source software for this specific project. pls read thru this before forking my personal webpage 🥶</h5>
 				</div>
 			</Link>
 		</center>

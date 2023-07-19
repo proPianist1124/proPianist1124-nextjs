@@ -5,7 +5,6 @@
 	--background-lightest:#9d9de2;
 	--primary:#fff;
 	--secondary:#b7b7b7;
-	--links:#9d9de2;
 	--buttonHover:var(--background-lighter);
 	--mainFont:'Plus Jakarta Sans', sans-serif;
 	--secondFont:'Poppins', sans-serif;
@@ -30,14 +29,11 @@ form {
 	max-width:800px;
 	text-align:left;
 	padding: 3px 20px;
-	background-color:var(--background-lighter);
+	background-color:var(--background);
 	border-radius:5px;
 	line-height:10px;
 	transition:0.3s;
 	box-shadow: none;
-}
-form:hover{
-	box-shadow: 5px 5px var(--background-lightest);
 }
 form span{
 	text-align:center;
@@ -98,55 +94,43 @@ p{
 h1, h2, h3, h4, h5, h6{
 	color:var(--primary);
 }
-code{
-	background-color:var(--background-lightest);
-	border-radius:5px;
-	color:var(--background);
-}
 a{
 	color:var(--secondary);
 	text-decoration:none;
 	transition:0.3s;
 }
 a:hover{
-	color:var(--links);
-	text-shadow: 0 0 20px var(--links);
+	color:var(--primary);
 }
 .replit:hover{
 	color:#ff5500;
-	text-shadow: 0 0 20px #ff5500;
 }
 .discord:hover{
 	color:#5865F2;
-	text-shadow: 0 0 20px #5865F2;
 }
 .email:hover{
-	color:var(--primary);
-	text-shadow: 0 0 20px var(--primary);
+	color:rgb(84, 129, 173);
+}
+.twitter:hover{
+	color:dodgerblue;
 }
 .socialRumbles:hover{
 	color:gold;
-	text-shadow: 0 0 20px gold;
 }
 .youtube:hover{
 	color:#D9544D;
-	text-shadow: 0 0 20px #D9544D;
 }
 .github:hover{
-	color:var(--background-lightest);
-	text-shadow: 0 0 20px var(--background-lightest);
+	color:#9d9de2;
 }
 .spotify:hover{
 	color:#46cb5b;
-	text-shadow: 0 0 20px #46cb5b;
 }
 .reddit:hover{
 	color:#ff2700;
-	text-shadow: 0 0 20px #ff2700;
 }
-.big-space:hover{
+.yofro:hover{
 	color:#e75480;
-	text-shadow: 0 0 20px #e75480;
 }
 
 /* navbar */
@@ -175,7 +159,7 @@ li a {
   	transition:0.3s;
 }
 li a:hover {
-	text-shadow: 0 0 20px var(--links);
+	color:var(--primary);
 }
 li span {
 	display: block;
@@ -183,9 +167,6 @@ li span {
   	text-align: center;
   	padding: 14px 16px;
   	text-decoration: none;
-}
-li span:hover{
-	text-shadow: 0 0 20px var(--links);
 }
 
 /* main page components */
@@ -218,7 +199,7 @@ li span:hover{
 	box-shadow: 5px 5px var(--background-lighter);
 }
 .blogCard h3{
-	color:var(--background-lightest);
+	color:var(--primary);
 }
 
 .galleryCard{
@@ -240,9 +221,6 @@ li span:hover{
 .galleryCard a{
 	color:var(--primary);
 }
-.galleryCard a:hover{
-	text-shadow:none;
-}
 
 .container{
 	text-align:left;
@@ -258,5 +236,4 @@ li span:hover{
 }
 .container a:hover{
 	color:var(--secondary);
-	text-shadow: 0 0 20px #000;
 }

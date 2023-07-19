@@ -1,6 +1,5 @@
 import Head from "next/head"
 import Link from "next/link"
-import Script from 'next/script'
 import Navbar from "./partials/navbar"
 
 export default function Home(){
@@ -11,7 +10,6 @@ export default function Home(){
 		<title>proPianist1124 - home</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	</Head>
-	<Script src="https://kit.fontawesome.com/09556a902e.js" />
 	<Navbar/>
 	<center>
 		<div>
