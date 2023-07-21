@@ -10,5 +10,7 @@ I&apos;m a fullstack developer with experience in…
 ## Where am I active
 I used to be active a lot on [Replit](https://replit.com) (where I first started programming), but I've since quit the platform because of it's goofy changes, including the new storage update and pricier plans with more limitations. Now you can find me mostly developing in [Next.js](https://nextjs.org) on Visual Studio Code (as my primary editor) and deploying products on [Vercel](https://vercel.com).
 
----
-![Cat Giving Creepy Thumbs Up!](public/cat.png "Cat Thumbs Up")
+## My Stats
+Just started being active on Github a few weeks ago
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=proPianist1124&theme=cobalt)
