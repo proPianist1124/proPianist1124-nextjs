@@ -47,9 +47,9 @@ export default function Gallery(){
 				</div>
 			</Link>
 			<br></br>
-            <Link href = "https://yofro.vercel.app" style = {{color:"var(--primary)", textShadow:"none"}}>
+            <Link href = "https://big-space.pizone.dev" style = {{color:"var(--primary)", textShadow:"none"}}>
 				<div className = "galleryCard">
-					Yofro
+					Big Space
 					<br></br>
 					<p>Minamalist social media webapp, where people can sign up within a matter of minutes. Complete with user profiles, custom tokens, and setting features!</p>
 					<mark style = {{backgroundColor:"green", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>Node.js</mark>
