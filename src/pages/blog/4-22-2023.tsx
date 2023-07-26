@@ -15,9 +15,9 @@ export default function april222023(){
 			<span className = "head">4-22-2023</span>
 		</div>
 		<br></br>
-		<div style = {{textAlign:"left", margin:"40px", lineHeight:"35px",}}>
+		<div style = {{textAlign:"left", margin:"100px"}}>
 			<p>
-				Welcome to my online portfolio! My project is <span style = {{color:"#D9544D"}}>not</span> an open source project, for your information. This website is my second take of remaking my portfolio, built with the powerful <Link href = "https://react.dev/">React.js</Link> framework, <Link href = "https://nextjs.org/">Next.js</Link>! It provides 60% faster loading speed and better webpage performance overall. It also lets me create pages faster and more efficiently.<br></br>You can view copyrighted information for this website (https://propianist1124.repl.co), as well as further information <Link href = "https://replit.com/@proPianist1124/proPianist1124?v=1#README.md">here</Link>.
+				Hey! I&apos;m proPianist1124! I&apos;m a fullstack developer with experence in Nodejs, Nextjs, React, Kaboomjs, Upstash Redis, Bootstrap, jQuery, Express, and many more! I started coding in 2021 on Replit, but stopped recently because of stupid new changes - this includes the new storage update (per repl), more expensive plans with less functionality, and repls going inactive after a few weeks (this honestly pissed me off a lot). Happy reading on the rest of my blog!
 			</p>
 		</div>
 	</center>

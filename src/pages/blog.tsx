@@ -28,7 +28,7 @@ export default function Blog(){
                 <div className = "blogCard">
 					<h3>4-22-2023</h3>
 					<p>
-						some copyright information and open source software for this specific project. pls read thru this before forking my personal webpage 🥶
+						an about me for yall to know and why i quit replit (for the time being 🥶)
 					</p>
 				</div>
 			</Link>

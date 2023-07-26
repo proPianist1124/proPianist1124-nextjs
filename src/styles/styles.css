@@ -44,7 +44,6 @@ input{
 }
 input:focus{
 	background-color:var(--background-lighter);
-	box-shadow: 5px 5px black;
 	outline:none;
 }
 textarea{
@@ -92,6 +91,7 @@ a{
 }
 a:hover{
 	color:var(--primary);
+	text-decoration:underline;
 }
 .replit:hover{
 	color:#ff5500;
@@ -169,6 +169,13 @@ mark{
 	left: 0;
   	bottom: 0;
   	width: 100%;
+}
+.footer a{
+	color:var(--primary);
+	transition:0.3s;
+}
+.footer a:hover{
+	color:var(--secondary);
 }
 .head{
 	color:var(--primary);
