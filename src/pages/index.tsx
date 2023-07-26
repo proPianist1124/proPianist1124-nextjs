@@ -18,11 +18,11 @@ export default function Home(){
 		<br></br>
 		<br></br>
 		<div className = "container">
-			Utensils: Figma, Replit, VSC<br></br>
-			Lang: Javascript, Typescript, Python<br></br>
-			Frameworks: Next.js, React.js<br></br>
-			Libraries: Express, Bootstrap, jQuery<br></br>
-			Email: invisible.horse1124@proton.me<br></br>
+			<p>Utensils: Figma, Replit, VSC</p>
+			<p>Lang: Javascript, Typescript, Python</p>
+			<p>Frameworks: Next.js, React.js</p>
+			<p>Libraries: Express, Bootstrap, jQuery</p>
+			<p>Email: phantomforces11242009@gmail.com</p>
 		</div>
 		<br></br>
 		<div className = "footer">

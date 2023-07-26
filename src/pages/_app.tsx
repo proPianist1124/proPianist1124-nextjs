@@ -1,5 +1,6 @@
 import Head from "next/head"
 import Script from "next/script"
+import Lenis from "@studio-freight/lenis"
 import '@/styles/styles.css'
 import type { AppProps } from 'next/app'
 
@@ -18,7 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <meta property="og:description" content="proPianist1124 - Fullstack Nextjs and Nodejs developer who loves designing webpages and webapps!"/>
       <meta name="theme-color" content="#ffffff"/>
     </Head>
-    <Script src="https://kit.fontawesome.com/09556a902e.js" />
+    <Script src="https://kit.fontawesome.com/09556a902e.js"/>
     <Component {...pageProps} />
     </>
   )

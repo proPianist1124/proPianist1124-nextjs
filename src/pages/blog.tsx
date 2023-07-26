@@ -15,17 +15,21 @@ export default function Blog(){
 				<span className = "head">📝 Blog</span>
 			</div>
 			<br></br>
-			<Link href = "/blog/5-10-2023" style = {{textShadow:"none"}}>
+			<Link href = "/blog/5-10-2023">
                 <div className = "blogCard">
 					<h3>5-10-2023</h3>
-					<h5>my new personal website! i discuss the making of my new webpage and the resources i used for faster performance!</h5>
+					<p>
+						my new personal website! i discuss the making of my new webpage and the resources i used for faster performance!
+					</p>
 				</div>
 			</Link>
 			<br></br>
 			<Link href = "/blog/4-22-2023">
-                <div className = "blogCard" style = {{textShadow:"none"}}>
+                <div className = "blogCard">
 					<h3>4-22-2023</h3>
-					<h5>some copyright information and open source software for this specific project. pls read thru this before forking my personal webpage 🥶</h5>
+					<p>
+						some copyright information and open source software for this specific project. pls read thru this before forking my personal webpage 🥶
+					</p>
 				</div>
 			</Link>
 		</center>

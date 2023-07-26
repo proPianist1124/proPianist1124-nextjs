@@ -2,8 +2,8 @@
 :root{
 	--background:#000;
 	--background-lighter:#282727;
-	--primary:#fff;
-	--secondary:#b7b7b7;
+	--primary:#f2eed2;
+	--secondary:#efe6a8;
 	--mainFont:"Inter", sans-serif;
 }
 
@@ -143,14 +143,14 @@ li {
 
 li a {
 	display: block;
-  	color: var(--secondary);
+  	color: var(--primary);
   	text-align: center;
   	padding: 14px 16px;
   	text-decoration: none;
   	transition:0.3s;
 }
 li a:hover {
-	color:var(--primary);
+	color:var(--secondary);
 }
 li span {
 	display: block;
@@ -189,17 +189,18 @@ mark{
 	box-shadow: none;
 	transition:0.3s;
 }
+.blogCard p, h3{
+	transition:0.3s;
+}
+
 .blogCard:hover {
 	box-shadow: 5px 5px var(--background-lighter);
 }
-.blogCard h3, h5{
-	font-weight:normal;
+.blogCard:hover p{
+	color:var(--secondary)
 }
-.blogCard h3{
-	color:var(--primary);
-}
-.blogCard h5{
-	color:var(--secondary);
+.blogCard:hover h3{
+	color:var(--secondary)
 }
 
 .galleryCard{
@@ -212,29 +213,28 @@ mark{
 	box-shadow: none;
 	transition:0.3s;
 }
+.galleryCard p{
+	color:var(--primary);
+	transition:0.3s;
+}
 .galleryCard:hover {
+	color:var(--secondary);
 	box-shadow: 5px 5px var(--background-lighter);
 }
-.galleryCard p{
+.galleryCard:hover p{
 	color:var(--secondary);
-}
-.galleryCard a{
-	color:var(--primary);
 }
 
 .container{
 	text-align:left;
-	line-height:50px;
 	margin:auto;
 	max-width:500px;
 	align-items:center;
 	vertical-align:middle;
-	color:var(--secondary);
-}
-.container a{
 	color:var(--primary);
+	cursor:pointer;
 }
-.container a:hover{
+.container p:hover{
 	color:var(--secondary);
 }
 .contact h2{
