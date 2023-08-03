@@ -1,6 +1,5 @@
 import Head from "next/head"
 import Link from "next/link"
-import Navbar from "../partials/navbar"
 
 export default function may102023(){
   return (
@@ -9,10 +8,9 @@ export default function may102023(){
         <link rel="shortcut icon" href="/code.svg" />
 		<title>proPianist1124 - blog | 5-10-2023</title>
 	</Head>
-	<Navbar/>
 	<center>
 		<div className = "header">
-			<span className = "head">5-10-2023</span>
+			<h2>5-10-2023</h2>
 		</div>
 		<br></br>
 		<div style = {{textAlign:"left", margin:"100px"}}>

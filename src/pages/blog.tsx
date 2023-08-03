@@ -1,6 +1,5 @@
 import Head from "next/head"
 import Link from "next/link"
-import Navbar from "./partials/navbar"
 
 export default function Blog(){
   return (
@@ -8,31 +7,30 @@ export default function Blog(){
     <Head>
         <link rel="shortcut icon" href="/code.svg" />
 		<title>proPianist1124 - blog</title>
-		</Head>
-		<Navbar/>
-		<center>
-			<div className = "header">
-				<span className = "head">📝 Blog</span>
+	</Head>
+	<center>
+		<div className = "header">
+			<h2>📝 Blog</h2>
+		</div>
+		<br></br>
+		<Link href = "/blog/5-10-2023">
+			<div className = "blogCard">
+				<h3>5-10-2023</h3>
+				<p>
+					my new personal website! i discuss the making of my new webpage and the resources i used for faster performance!
+				</p>
 			</div>
-			<br></br>
-			<Link href = "/blog/5-10-2023">
-                <div className = "blogCard">
-					<h3>5-10-2023</h3>
-					<p>
-						my new personal website! i discuss the making of my new webpage and the resources i used for faster performance!
-					</p>
-				</div>
-			</Link>
-			<br></br>
-			<Link href = "/blog/4-22-2023">
-                <div className = "blogCard">
-					<h3>4-22-2023</h3>
-					<p>
-						an about me for yall to know and why i quit replit (for the time being 🥶)
-					</p>
-				</div>
-			</Link>
+		</Link>
+		<br></br>
+		<Link href = "/blog/4-22-2023">
+			<div className = "blogCard">
+				<h3>4-22-2023</h3>
+				<p>
+					an about me for yall to know and why i quit replit (for the time being 🥶)
+				</p>
+			</div>
+		</Link>
 		</center>
-		</>
+	</>
   )
 }

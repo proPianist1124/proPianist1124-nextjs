@@ -1,6 +1,5 @@
 import Head from "next/head"
 import Link from "next/link"
-import Navbar from "./partials/navbar"
 
 export default function Contact(){
   return (
@@ -9,10 +8,9 @@ export default function Contact(){
         <link rel="shortcut icon" href="/code.svg" />
 		<title>proPianist1124 - contact</title>
 	</Head>
-	<Navbar/>
 	<center>
 		<div className = "header">
-			<span className = "head">📱 Contact</span>
+			<h2>📱 Contact</h2>
 		</div>
 		<div className = "contact">
 			<p>Replit</p>
