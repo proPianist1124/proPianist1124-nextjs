@@ -2,9 +2,9 @@ import Head from "next/head"
 import Wave from "./partials/wave"
 
 export default function Home(){
-  return (
-    <>
-	<Head>
+	return (
+    	<>
+		<Head>
 		<link rel="shortcut icon" href="/code.svg" />
 		<title>proPianist1124 - home</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>

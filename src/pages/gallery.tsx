@@ -17,9 +17,7 @@ export default function Gallery(){
 				<div className = "galleryCard">
 					<h3>proPianist1124</h3>
 					<p>A remake of my original site (which was built with pure HTML), but with Next.js! Please tip my project! I have been working hard on these for a year.</p>
-					<mark style = {{backgroundColor:"black", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>Next.js</mark>
-					&nbsp;<mark style = {{backgroundColor:"yellow", color:"black", fontSize:15, padding:"2px 10px", borderRadius:5}}>Express</mark>
-					&nbsp;<mark style = {{backgroundColor:"#0279f2", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>CSS3</mark>
+					<br></br>
 				</div>
 			</Link>
 			<br></br>
@@ -27,9 +25,7 @@ export default function Gallery(){
 				<div className = "galleryCard">
 					<h3>Next Audio</h3>
 					<p>This website was for my own personal needs - anyone can create an account, sign in, and extract the audio of a youtube video to listen to! You can also add other audio files to the one you&apos;re listening to.</p>
-					<mark style = {{backgroundColor:"black", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>Next.js</mark>
-					&nbsp;<mark style = {{backgroundColor:"#0279f2", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>CSS3</mark>
-					&nbsp;<mark style = {{backgroundColor:"#36d399", color:"black", fontSize:15, padding:"2px 10px", borderRadius:5}}>Upstash</mark>
+					<br></br>
 				</div>
 			</Link>
 			<br></br>
@@ -37,8 +33,7 @@ export default function Gallery(){
 				<div className = "galleryCard">
 					<h3>South Korea</h3>
 					<p>A great website I made for a school History project about South Korea during the Middle Ages. Great CSS and lots of animations, as well as many stock photos of Korea.</p>
-					<mark style = {{backgroundColor:"black", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>Next.js</mark>
-					&nbsp;<mark style = {{backgroundColor:"#0279f2", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>CSS3</mark>
+					<br></br>
 				</div>
 			</Link>
 			<br></br>
@@ -46,10 +41,7 @@ export default function Gallery(){
 				<div className = "galleryCard">
 					<h3>Big Space</h3>
 					<p>Minamalist social media webapp, where people can sign up within a matter of minutes. Complete with user profiles, custom tokens, and setting features!</p>
-					<mark style = {{backgroundColor:"green", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>Node.js</mark>
-					&nbsp;<mark style = {{backgroundColor:"yellow", color:"black", fontSize:15, padding:"2px 10px", borderRadius:5}}>Express</mark>
-					&nbsp;<mark style = {{backgroundColor:"#b5ca65", color:"#a91e50", fontSize:15, padding:"2px 10px", borderRadius:5}}>Ejs</mark>
-					&nbsp;<mark style = {{backgroundColor:"#0279f2", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>CSS3</mark>
+					<br></br>
 				</div>
 			</Link>
 			<br></br>
@@ -57,10 +49,7 @@ export default function Gallery(){
 				<div className = "galleryCard">
 					<h3>ReplWeb</h3>
 					<p>Replit, but with a beautiful user interface. Interact with your Repls, create community pages, and enjoy a minamalist design!</p>
-					<mark style = {{backgroundColor:"green", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>Node.js</mark>
-					&nbsp;<mark style = {{backgroundColor:"yellow", color:"black", fontSize:15, padding:"2px 10px", borderRadius:5}}>Express</mark>
-					&nbsp;<mark style = {{backgroundColor:"#0279f2", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>CSS3</mark>
-					&nbsp;<mark style = {{backgroundColor:"#0d1525", color:"#FFD580", fontSize:15, padding:"2px 10px", borderRadius:5}}>Replit API</mark>
+					<br></br>
 				</div>
 			</Link>
 			<br></br>
@@ -68,11 +57,7 @@ export default function Gallery(){
 				<div className = "galleryCard">
 					<h3>ReplMail</h3>
 					<p>This is the unofficial mailing system for Replit users! One can only mail a valid user who has signed up for this platform using their Repl account.</p>
-					<mark style = {{backgroundColor:"green", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>Node.js</mark>
-					&nbsp;<mark style = {{backgroundColor:"yellow", color:"black", fontSize:15, padding:"2px 10px", borderRadius:5}}>Express</mark>
-					&nbsp;<mark style = {{backgroundColor:"red", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>HTML5</mark>
-					&nbsp;<mark style = {{backgroundColor:"#0279f2", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>CSS3</mark>
-					&nbsp;<mark style = {{backgroundColor:"#0d1525", color:"#FFD580", fontSize:15, padding:"2px 10px", borderRadius:5}}>Replit API</mark>
+					<br></br>
 				</div>
 			</Link>
 			<br></br>
@@ -80,8 +65,7 @@ export default function Gallery(){
 				<div className = "galleryCard">
 					<h3>Cookie+</h3>
 					<p>A feature-packed Discord bot made for auto moderation and fun, with economy features! You can add Cookie+ into your server today! Bot currently being self-hosted, because I don&#39;t trust Replit.</p>
-					<mark style = {{backgroundColor:"green", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>Node.js</mark>
-					&nbsp;<mark style = {{backgroundColor:"#5865F2", color:"white", fontSize:15, padding:"2px 10px", borderRadius:5}}>Discord API</mark>
+					<br></br>
 				</div>
 			</Link>
 			<br></br><br></br>

@@ -1,6 +1,5 @@
 import Head from "next/head"
 import Link from "next/link"
-import Script from "next/script"
 
 import "@/styles/styles.css"
 import type { AppProps } from "next/app"
@@ -15,7 +14,6 @@ export default function App({ Component, pageProps }: AppProps) {
       <meta property="og:description" content="proPianist1124 - Fullstack Nextjs and Nodejs developer who loves designing webpages and webapps!"/>
       <meta name="theme-color" content="#ffffff"/>
     </Head>
-    <Script src = "script.js"></Script>
     <ul>
       <li><Link href = "/contact">Contact</Link></li>
       <li><Link href = "/blog">Blog</Link></li>
