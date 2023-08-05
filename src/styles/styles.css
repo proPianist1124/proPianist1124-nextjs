@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 :root{
-	--background:#000;
-	--background-lighter:#282727;
-	--primary:#F4F4F5;
+	--background:#18181B;
+	--background-lighter:#27272A;
+	--primary:#E4E4E7;
 	--secondary:#a1a1aa;
 	--mainFont:"Inter", sans-serif;
 }
@@ -196,7 +196,6 @@ li span {
 	transition:0.3s;
 }
 .card:hover {
-	color:var(--secondary);
 	box-shadow: 5px 5px var(--background-lighter);
 }
 .card:hover p{
