@@ -1,7 +1,8 @@
 import Head from "next/head"
 import Link from "next/link"
+import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal, PromiseLikeOfReactNode } from "react";
 
-export default function Blog(){
+export default function Blog({dates, descriptions}:any){
   return (
     <>
     <Head>
@@ -13,24 +14,36 @@ export default function Blog(){
 			<h2>📝 Blog</h2>
 		</div>
 		<br></br>
-		<Link href = "/blog/5-10-2023">
-			<div className = "blogCard">
-				<h3>5-10-2023</h3>
-				<p>
-					my new personal website! i discuss the making of my new webpage and the resources i used for faster performance!
-				</p>
-			</div>
-		</Link>
-		<br></br>
-		<Link href = "/blog/4-22-2023">
-			<div className = "blogCard">
-				<h3>4-22-2023</h3>
-				<p>
-					an about me for yall to know and why i quit replit (for the time being 🥶)
-				</p>
-			</div>
-		</Link>
-		</center>
+		{dates.map((date: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | PromiseLikeOfReactNode | null | undefined) =>
+			<>
+			<Link href = {`/blog/${date}`} key = {String(date)}>
+				<div className = "card">
+					<h3>{date}</h3>
+					<p>{descriptions[dates.indexOf(date)]}</p>
+				</div>
+			</Link>
+			<br></br>
+			</>
+		)}
+	</center>
+	<br></br><br></br>
 	</>
   )
+}
+
+export function getServerSideProps(){
+	let dates = [
+		"8-4-2023",
+		"5-10-2023", 
+		"4-22-2023"
+	];
+	let descriptions = [
+		"update to my summer thus far and why ive been on hiatus",
+		"my new personal website! i used nextjs for its fast performance",
+		"an about me for yall to know and why i quit replit"
+	];
+
+	return {
+		props: {dates, descriptions}
+	}
 }

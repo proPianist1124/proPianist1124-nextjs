@@ -2,7 +2,7 @@
 :root{
 	--background:#000;
 	--background-lighter:#282727;
-	--primary:#ECEDEE;
+	--primary:#F4F4F5;
 	--secondary:#a1a1aa;
 	--mainFont:"Inter", sans-serif;
 }
@@ -129,7 +129,7 @@ ul{
   	margin: 0;
   	padding: 0;
   	overflow: hidden;
-	font-size:18px;
+	font-size:17px;
 	position: -webkit-sticky;
   	position: sticky;
   	top: 0;
@@ -180,31 +180,8 @@ li span {
 	text-align:center;
 	padding:10px;
 }
-.blogCard {
-	max-width:800px;
-	text-align:left;
-	padding:10px;
-	background-color:var(--background);
-	border:1px solid var(--background-lighter);
-	border-radius:0px;
-	box-shadow: none;
-	transition:0.3s;
-}
-.blogCard p, h3{
-	transition:0.3s;
-}
 
-.blogCard:hover {
-	box-shadow: 5px 5px var(--background-lighter);
-}
-.blogCard:hover p{
-	color:var(--secondary)
-}
-.blogCard:hover h3{
-	color:var(--secondary)
-}
-
-.galleryCard{
+.card{
 	max-width:650px;
 	text-align:left;
 	padding:20px;
@@ -214,18 +191,18 @@ li span {
 	box-shadow: none;
 	transition:0.3s;
 }
-.galleryCard p, h3{
+.card p, h3{
 	color:var(--primary);
 	transition:0.3s;
 }
-.galleryCard:hover {
+.card:hover {
 	color:var(--secondary);
 	box-shadow: 5px 5px var(--background-lighter);
 }
-.galleryCard:hover p{
+.card:hover p{
 	color:var(--secondary);
 }
-.galleryCard:hover h3{
+.card:hover h3{
 	color:var(--secondary);
 }
 

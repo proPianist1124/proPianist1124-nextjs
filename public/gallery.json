@@ -1,0 +1,34 @@
+{
+    "gallery":{
+        "project1":{
+            "title":"proPianist1124",
+            "description":"A remake of my original site (which was built with pure HTML), but with Next.js! Please tip my project! I have been working hard on these for a year.",
+            "link":"https://github.com/propianist1124/propianist1124"
+        },
+        "project2":{
+            "title":"Next Audio",
+            "description":"This website was for my own personal needs - anyone can create an account, sign in, and extract the audio of a youtube video to listen to! You can also add other audio files to the one you're listening to.",
+            "link":"https://next-audio.vercel.app"
+        },
+        "project3":{
+            "title":"South Korea",
+            "description":"A great website I made for a school History project about South Korea during the Middle Ages. Great CSS and lots of animations, as well as many stock photos of Korea.",
+            "link":"https://replit.com/@proPianist1124/south-korea?v=1"
+        },
+        "project4":{
+            "title":"Big Space",
+            "description":"Minamalist social media webapp, where people can sign up within a matter of minutes. Complete with user profiles, custom tokens, and setting features!",
+            "link":"https://big-space.pizone.dev"
+        },
+        "project5":{
+            "title":"ReplWeb",
+            "description":"Replit, but with a beautiful user interface. Interact with your Repls, create community pages, and enjoy a minamalist design!",
+            "link":"https://replit.com/@proPianist1124/repl-web?v=1"
+        },
+        "project6":{
+            "title":"Cookie+",
+            "description":"A feature-packed Discord bot made for auto moderation and fun, with economy features! You can add Cookie+ into your server today! Bot currently being self-hosted, because I don&apos;t trust Replit.",
+            "link":"https://cookie.propianist1124.repl.co/"
+        }
+    }
+}
