@@ -46,12 +46,10 @@ export default function Contact(){
 		<br></br><br></br>
 		<br></br><br></br>
 		<br></br><br></br>
-		<form action="/api/form" method="post">
+		<form action="https://formspree.io/f/xpzgpwpn" method="POST">
 			<p style = {{fontSize:20, textAlign:'center'}}>Leave a Message for me!</p>
 			<br></br>
 			<input type = "email" name="email" placeholder = "email" autoComplete = "off" required/>
-			<br></br><br></br>
-			<input type = "text" name="name" placeholder = "name" autoComplete = "off" required/>
 			<br></br><br></br>
 			<textarea placeholder = "message" name = "message" required></textarea>
 			<br></br><br></br>
