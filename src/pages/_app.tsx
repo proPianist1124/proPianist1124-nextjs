@@ -16,6 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
     </Head>
     <ul>
       <li><Link href = "/contact">Contact</Link></li>
+      <li><Link href = "https://propianist1124-guestbook.vercel.app/">Guestbook</Link></li>
       <li><Link href = "/blog">Blog</Link></li>
       <li><Link href = "/gallery">Gallery</Link></li>
       <li><Link href = "/">Home</Link></li>

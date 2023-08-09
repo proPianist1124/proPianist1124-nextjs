@@ -5,7 +5,6 @@ export default function may102023(){
   return (
     <>
 	<Head>
-        <link rel="shortcut icon" href="/code.svg" />
 		<title>proPianist1124 - blog | 5-10-2023</title>
 	</Head>
 	<center>

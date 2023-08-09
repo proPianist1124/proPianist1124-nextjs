@@ -6,7 +6,6 @@ export default function Blog({dates, descriptions}:any){
   return (
     <>
     <Head>
-        <link rel="shortcut icon" href="/code.svg" />
 		<title>proPianist1124 - blog</title>
 	</Head>
 	<center>
@@ -33,11 +32,13 @@ export default function Blog({dates, descriptions}:any){
 
 export function getServerSideProps(){
 	let dates = [
+		"8-8-2023",
 		"8-4-2023",
 		"5-10-2023", 
 		"4-22-2023"
 	];
 	let descriptions = [
+		"sharing something new ive been working on this week",
 		"update to my summer thus far and why ive been on hiatus",
 		"my new personal website! i used nextjs for its fast performance",
 		"an about me for yall to know and why i quit replit"

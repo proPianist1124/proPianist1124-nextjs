@@ -5,7 +5,6 @@ export default function Contact(){
   return (
     <>
     <Head>
-        <link rel="shortcut icon" href="/code.svg" />
 		<title>proPianist1124 - contact</title>
 	</Head>
 	<center>
