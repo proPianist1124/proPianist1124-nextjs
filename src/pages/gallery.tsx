@@ -1,8 +1,10 @@
 import Head from "next/head"
 import Link from "next/link"
+import { useRouter } from "next/router"
 import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal, PromiseLikeOfReactNode } from "react";
 
 export default function Gallery({titles, descriptions, links}:any){
+	const router = useRouter();
     return (
     	<>
 		<Head>
@@ -14,12 +16,10 @@ export default function Gallery({titles, descriptions, links}:any){
 			</div>
 			{titles.map((title: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | PromiseLikeOfReactNode | null | undefined) =>
 				<>
-				<Link href = {links[titles.indexOf(title)]} key = {String(title)}>
-					<div className = "card">
+				<div className = "card-hoverable" onClick = {() => router.push(links[titles.indexOf(title)])} key = {String(title)} style = {{textAlign:"left"}}>
 						<h3>{title}</h3>
 						<p>{descriptions[titles.indexOf(title)]}</p>
 					</div>
-				</Link>
 				<br></br>
 				</>
 			)}
