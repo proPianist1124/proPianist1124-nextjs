@@ -3,7 +3,7 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import type { AppProps } from "next/app"
 
-import "@/styles/styles.css"
+//import "@/styles/styles.css"
 import Code from "./partials/code"
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -19,11 +19,13 @@ export default function App({ Component, pageProps }: AppProps) {
       <meta name="theme-color" content="#ffffff"/>
     </Head>
     <div className = "navbar">
-      <span className = "right" onClick = {() => router.push("/contact")}>Contact</span>
-      <span className = "right" onClick = {() => router.push("https://propianist1124-guestbook.vercel.app/")}>Guestbook</span>
-      <span className = "right" onClick = {() => router.push("/blog")}>Blog</span>
-      <span className = "right" onClick = {() => router.push("/gallery")}>Gallery</span>
-      <span className = "left" onClick = {() => router.push("/")}><Code/> proPianist1124</span>
+      <Link className = "left" href = "/"><Code/> proPianist1124</Link>
+      <span className = "right">
+        <Link href = "/contact">Contact</Link>
+        &nbsp;&nbsp;&nbsp;<Link href = "/blog">Blog</Link>
+        &nbsp;&nbsp;&nbsp;<Link href = "/gallery">Gallery</Link>
+        &nbsp;&nbsp;&nbsp;<Link href = "https://propianist1124-guestbook.vercel.app" target = "_blank">Guestbook</Link>
+      </span>
     </div>
     <Component {...pageProps}/>
     <br></br><br></br>
